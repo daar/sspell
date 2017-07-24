@@ -42,3 +42,4 @@ This tool has a lot of todo's! Any help is greatly appreciated. Please fork and 
 - [ ] update source files immediately
 - [ ] recursive scanning
 - [ ] remember changes within same session for duplicates
+- [ ] auomatically ignore variable names
