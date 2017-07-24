@@ -532,6 +532,9 @@ begin
   Speller := TWordSpeller.Create;
   Speller.Language := ParamStr(1);
 
+  writeln('Source code speller version 1.0.0 [', {$I %DATE%}, '] for ', {$I %FPCTARGETCPU%});
+  writeln('Copyright (c) 2017 by Darius Blaszyk');
+
   writeln('processing: ', ParamStr(2));
   writeln('language: ', Speller.Language);
   writeln;
